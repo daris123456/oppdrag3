@@ -1,0 +1,118 @@
+
+
+
+*{
+    background: #451f1f;
+    margin: 0px;
+}
+
+.vei{
+    background: #505154;
+    width: 100%;
+    height: 210px;
+    margin-top: 630px;
+}
+
+
+.dør1 {
+    position: absolute;
+    margin-top: -560px;
+    left: 100px;
+    background: #91513c;
+    height: 350px;
+    width: 200px;
+    cursor: pointer;
+    color: white;
+}
+
+
+.dør2 {
+    position: absolute;
+    margin-top: -560px;
+    left: 450px;
+    background: #91513c;
+    height: 350px;
+    width: 200px;
+    cursor: pointer;
+    color: white;
+    
+}
+
+
+.dør3 {
+    position: absolute;
+    margin-top: -560px;
+    left: 810px;
+    background: #91513c;
+    height: 350px;
+    width: 200px;
+    cursor: pointer;
+    color: white;
+    
+}
+
+
+
+.dør4 {
+    position: absolute;
+    margin-top: -560px;
+    left: 1150px;
+    background: #91513c;
+    height: 350px;
+    width: 200px;
+    cursor: pointer;
+    color: white;
+}
+
+
+.box {
+    position: absolute;
+    margin-top: -550px;
+    left: 400px;
+    background: black;
+    width: 700px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.stykken {
+    position: absolute;
+    margin-top: -710px;
+    color: white;
+    left: 610px;
+    height: 2px;
+    width: 400px;
+    font-size: 25px;
+}
+
+.stykken h1 {
+    background-color: black;
+}
+
+.backbtn {
+    position: absolute;
+    margin-top: -100px;
+    left: 10px;
+    height: 70px;
+    width: 150px;
+    background-color: #b86d2c;
+    color: white;
+    box-shadow: black 2px 2px 2px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    
+}
+
+.backbtn h1 {
+    background-color:#b86d2c;
+    letter-spacing: 4px;
+    
+}
+
+.question1 {
+    position: absolute;
+    margin-top: -810px;
+    left: 670px;
+    color: white;
+}
