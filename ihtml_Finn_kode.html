@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="style_finn_kode.css">
 </head>
 <body>
-    <script src="script.js"></script>
+    <script src="script.js"></script><!--dette er for å koble javascipt-->
 
     <div id="Vegg_fk"><!--veggen-->
         <div id="Tavle_fk"><!--tavle-->
 
             <div id="avis_fk"> <!--Avisen som ligger elt øverst i venstre gjørne-->
-                <img src="Picture/tegning_undersøker_politianmeldt.png" width="170px" alt="">
+                <img src="_undersøker_politianmeldt.png" width="170px" alt="">
             </div>
             <div id="kode_fk"> <h1>52_42</h1></div> <!--dette er boksen som ligger imder avisen-->
             <div id="kart_fk"> <!--dette er for kartet-->
@@ -41,12 +41,15 @@
             <link rel="stylesheet" href="#">
         </button>
 
-        <input type="kode" id="TekstKode" placeholder="Skriv..">
+        </section><!-- jeg skriver section for å fortelle at det er inni her javascipt skal konsentrere seg-->
+            <input type="number" id="TekstKode" placeholder="Skriv..">
+
+            <button id="sjekke_boks">
+                <h1>Sjekke</h1>
+            </button>
+        </section>
 
     </div>
-
-
-    
     
 </body>
 </html>
