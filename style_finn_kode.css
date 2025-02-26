@@ -1,0 +1,106 @@
+#body{ /*for å sørge for at alle elementer kan legge helt inntil margen på netsiden.*/
+    margin: auto; 
+}
+
+#Vegg_fk{/*dette er bakrundsfarge for veggen*/
+    background-color: rgb(69, 31, 31, 100);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+#Tavle_fk{/*dette er for tavlen som er helle svarte boksen*/
+    background-color: black;
+    width: 60%;
+    height: 400px;
+    margin-top: 120px;
+    display: flex;
+        
+}
+
+#avis_fk{ /* dette er foravisen der vi ser en ukjent person*/
+    width: 20%;
+    height: 130px;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+#kode_fk{ /*dette er for den koden man skal skrive ferdig.*/
+    background-color: rgb(121, 109, 41);
+    color: rgb(153, 99, 99);
+    width: 140px;
+    height: 60px;
+    margin-top: 220px;
+    margin-left: -160px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#kart_fk{ /*dette er den boksen som har en slags kart*/
+    width: 40%;
+    height: 290px;
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+#boks_Usen_tekst_fk{/*dette */
+    background-color: rgb(255, 255, 255);
+    width: 15%;
+    height: 180px;
+    margin-top: 35px;
+    margin-left: 25px;
+
+}
+#plakat_kode{/*dette er den koden som styrer plakaten som er gul der man ikke ser tekst*/
+    background-color: rgb(206, 157, 94);
+    color: black;
+    width: 10%;
+    height: 90px;
+    margin-top: 240px;
+    display: flex;
+    justify-content: center;
+    margin-left: -90px;
+    font-size: 13px;
+
+}
+#Tilbake_knapp{
+    background-color: rgb(184, 109, 44, 100%);
+    width: 10%;
+    height: 50px;
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    margin-top: 30px; 
+}
+
+#Tilbake_knapp:hover{
+    background-color: rgb(230, 0, 0);
+}
+
+#TekstKode{
+    width: 20%;
+    height: 70px;
+    border-radius: 30px;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 400px;
+}
+
+#list_fk{/*dette er listen som skiller sluten av veggen og ned mot bakken*/
+    background-color: rgb(43, 9, 9, 100);
+    width: 100%;
+    height: 20px;
+    
+}
+
+#gulv_fk{/*dette er for gulvet*/
+    background-color: rgb(80, 81, 84, 100);
+    width: 100%;
+    height: 136px;
+    display: flex;  
+    
+}
