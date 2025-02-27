@@ -1,0 +1,29 @@
+body{
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 175%;
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+}
+
+h2{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.box1{
+    text-align: center;
+    margin-top: 15%;
+}
+
+.box2{
+    width: 40%;
+    height: 100px;
+    background-color: #91513c;
+    margin-left: 30%;
+    margin-top: 5%;
+}

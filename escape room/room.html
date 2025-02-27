@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="room.css"> 
+</head>
+<body>
+  <div class="box1">
+    <img src="img/keypad.png" alt="Click me" class="reveal-image" onclick="revealForm()">
+  </div>
+  <div class="box2"></div>
+
+  <div id="overlay" class="overlay" onclick="closeModal(event)">
+    <div class="popup" onclick="event.stopPropagation()"> 
+      <span class="close" onclick="closeModal(event)">&times;</span>
+      <h2>Enter the correct phrase to visit the site</h2>
+      <input type="text" id="inputField" placeholder="Enter secret code">
+      <button onclick="checkInput()">Submit</button>
+    </div>
+  </div>
+
+  <script src="room.js"></script>
+</body>
+</html>
