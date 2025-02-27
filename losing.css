@@ -1,0 +1,59 @@
+* {
+    scroll-behavior: smooth;
+    
+
+
+}
+
+body {
+    background-image: url(bilder/city.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 155%;
+}
+
+.main {
+    position: relative;
+    color: white;
+    left: 95px;
+    bottom: -150px;
+
+}
+
+.main h1{
+   font-size: 80px;
+    
+}
+
+.gameover {
+    position: relative;
+    color: rgb(255, 0, 0);
+    left: 320px;
+    bottom: -150px;
+
+}
+
+.gameover h1 {
+    font-size: 50px;
+}
+
+.playagainbtn {
+    position: relative;
+    left: 25%;
+    margin-top: 12%;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #b86d2c;
+    color: white;
+    width: 200px;
+}
+
+.playagainbtn:hover {
+    background-color: rgb(195, 102, 21);
+}
+
+.playagainbtn:active {
+    transform: scale(0.95);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}

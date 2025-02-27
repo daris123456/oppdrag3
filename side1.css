@@ -25,6 +25,13 @@
     color: white;
 }
 
+.dør1:active {
+    transform: scale(0.95);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
 
 .dør2 {
     position: absolute;
@@ -36,6 +43,13 @@
     cursor: pointer;
     color: white;
     
+}
+
+.dør2:active {
+    transform: scale(0.95);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
 }
 
 
@@ -51,6 +65,13 @@
     
 }
 
+.dør3:active {
+    transform: scale(0.95);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
 
 
 .dør4 {
@@ -64,6 +85,12 @@
     color: white;
 }
 
+.dør4:active {
+    transform: scale(0.95);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
 
 .box {
     position: absolute;
@@ -115,4 +142,11 @@
     margin-top: -810px;
     left: 670px;
     color: white;
+}
+
+.backbtn:active {
+    transform: scale(0.95);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
 }

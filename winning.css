@@ -1,0 +1,126 @@
+* {
+    scroll-behavior: smooth;
+    
+
+
+}
+
+body {
+    background-image: url(bilder/city.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.main {
+    position: relative;
+    color: white;
+    left: 65px;
+    bottom: -150px;
+
+}
+
+.main h1{
+   font-size: 80px;
+    
+}
+
+.congrats {
+    position: relative;
+    color: yellow;
+    left: 215px;
+    bottom: -150px;
+
+}
+
+.congrats h1 {
+    font-size: 50px;
+}
+
+.leaderboard {
+    max-width: 50em;
+    margin-right: 650px;
+    margin-left: auto;
+    display: block;
+    padding: 1em;
+    padding-top: 2em;
+}
+
+table {
+    margin-top: 120px;
+    width: 40em;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+table thead {
+    opacity: .8;
+}
+
+table img {
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+}
+
+table td {
+    max-width: 2em;
+    padding: .5em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+tbody tr {
+    box-shadow: 0 2px rgba(100, 100, 100,.5);
+    border-radius: 10px;
+}
+
+tbody tr:hover { 
+    transform: scale(1.025);
+    transition: .2s ease-in-out;
+
+}
+
+
+#winner {
+    color: gold;
+    font-weight: 800;
+}
+
+#runner-up {
+    color: silver;
+    font-weight: 800;
+}
+
+#second-runner-up {
+    color: #cd7f32;
+    font-weight: 800;
+}
+
+
+table {
+    max-width: 100vw;
+    overflow-x: scroll;
+}
+
+.playagainbtn {
+    position: relative;
+    left: 24%;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #b86d2c;
+    color: white;
+    width: 200px;
+}
+
+.playagainbtn:hover {
+    background-color: rgb(195, 102, 21);
+}
+
+.playagainbtn:active {
+    transform: scale(0.95);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
