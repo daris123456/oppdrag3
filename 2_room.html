@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="2_room.css"> 
+</head>
+<body>
+  <div class="box1">
+    <img src="bilder/keypad.png" alt="Click me" class="reveal-image" onclick="revealForm()">
+  </div>
+  <button onclick="myBack()"class=box2>
+    <h3>Back</h3>
+  </button>
+
+  <div id="overlay" class="overlay" onclick="closeModal(event)">
+    <div class="popup" onclick="event.stopPropagation()"> 
+      <span class="close" onclick="closeModal(event)">&times;</span>
+      <h1>Question 2:</h1>
+      <h2>Jeg kan være stor eller liten, men jeg er alltid rundt. Jeg kan være tung eller lett, men det er alltid noe inni meg. Jeg kan rulle eller stå stille, og jeg brukes ofte til å få noe til å gå fremover. Hva er jeg?</h2>
+      <input type="text" id="inputField" placeholder="Enter secret code">
+      <button onclick="checkInput()">Submit</button>
+    </div>
+  </div>
+
+  <script src="2_room.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+body{
+    background-image: url("bilder/city.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 175%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+}
+
+ h2{
+    
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    
+   
+   
+}
+
+.box1{
+    text-align: center;
+    margin-top: 15%;
+    
+}
+
+.box2{
+    width: 40%;
+    height: 100px;
+    background-color: #91513c;
+    margin-left: 30%;
+    margin-top: 5%;
+    border-radius: 5px;
+}
+
+.box2:active {
+    transform: scale(0.95);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
